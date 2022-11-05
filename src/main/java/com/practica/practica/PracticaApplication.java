@@ -58,7 +58,7 @@ public class PracticaApplication implements CommandLineRunner {
 
     public void GuadadoDeUsuarios(){
 
-		User user1 = new User("Jose","Jose@gmail.com",LocalDate.of(2022,05,10));
+		User user1 = new User("pepe","pepe@gmail.com",LocalDate.of(2022,05,10));
 		User user2 = new User("Olga","Olga@gmail.com",LocalDate.of(2022,07,15));
 		User user3 = new User("Pedro","Pedro@gmail.com",LocalDate.of(2022,11,9));
 		List<User> users = Arrays.asList(user1, user2, user3);
